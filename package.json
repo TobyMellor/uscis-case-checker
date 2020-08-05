@@ -1,0 +1,39 @@
+{
+  "name": "uscis-case-checker",
+  "version": "1.0.0",
+  "description": "Simple USCIS Case Checker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && mkdir ./dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyMellor/uscis-case-checker.git"
+  },
+  "keywords": [
+    "uscis",
+    "case",
+    "checker"
+  ],
+  "author": "Toby Mellor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobyMellor/uscis-case-checker/issues"
+  },
+  "homepage": "https://github.com/TobyMellor/uscis-case-checker#readme",
+  "dependencies": {
+    "@google-cloud/language": "^4.1.0",
+    "aws-sdk": "^2.726.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.59",
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.21",
+    "@types/node": "^14.0.27",
+    "prettier": "^2.0.5"
+  }
+}

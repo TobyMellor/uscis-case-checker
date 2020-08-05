@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es2018",
+    "lib": ["es2018"],
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [".vscode", ".serverless", ".git", "node_modules"]
+}
